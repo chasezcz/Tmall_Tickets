@@ -87,7 +87,7 @@ var dDate = new Date();  //10点和20点开抢
 if (dDate.getHours() < 10) {
 	dDate.setHours(9, 59, 59.2);
 } else {
-	dDate.setHours(21, 59, 30);
+	dDate.setHours(20, 00, 00);
 }
 
 //进入时间判断循环
